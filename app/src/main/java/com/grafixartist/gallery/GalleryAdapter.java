@@ -67,5 +67,10 @@ public class GalleryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
     }
 
+    public void setImageData(ArrayList<ImageModel> data) {
+        this.data = data;
+        notifyDataSetChanged();
+    }
+
 
 }
